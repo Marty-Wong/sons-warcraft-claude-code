@@ -1,0 +1,24 @@
+{
+	"name": "sons-warcraft-claude-code",
+	"version": "1.0.0",
+	"description": "Les répliques de Warcraft III (VF) dans les hooks de Claude Code : « Oui monseigneur ! », « Travail terminé ! »…",
+	"type": "module",
+	"private": true,
+	"license": "MIT",
+	"scripts": {
+		"installer": "bun src/cli.ts installer",
+		"desinstaller": "bun src/cli.ts desinstaller",
+		"page": "bun src/cli.ts page",
+		"appliquer": "bun src/cli.ts appliquer",
+		"ecouter": "bun src/cli.ts ecouter",
+		"journal": "bun src/cli.ts journal",
+		"recuperer": "bun src/recuperer.ts",
+		"test": "bun test",
+		"lint": "biome check ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.11",
+		"@types/bun": "1.3.5",
+		"typescript": "5.9.3"
+	}
+}

@@ -1,0 +1,6 @@
+# Sons téléchargés, catalogue, choix, journal, page d'écoute : chez toi seulement.
+donnees/
+*.part
+
+node_modules/
+.DS_Store
